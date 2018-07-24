@@ -1,0 +1,1000 @@
+w/*udemy* education/udemy/raw/
+ 1002  cd storage51
+ 1003  ls
+ 1004  ls raw/
+ 1005  ls compiled/
+ 1006  ls storage/raw/
+ 1007  ls storage17/raw/
+ 1008  ls storage17/compiled/
+ 1009  cd ..
+ 1010  cd storage51
+ 1011  ls
+ 1012  ls raw/
+ 1013  ls compiled/
+ 1014  cd ..
+ 1015  rm -r storage51
+ 1016  ls
+ 1017  cd storage54
+ 1018  ls
+ 1019  cd storage54b
+ 1020  ls
+ 1021  cd ..
+ 1022  cd storage54
+ 1023  cd ..
+ 1024  cd storage54b
+ 1025  ls
+ 1026  cd ..
+ 1027  cd storage54
+ 1028  mkdir raw
+ 1029  mkdir compiled
+ 1030  mv */raw/* raw/
+ 1031  mv */compiled/* compiled/
+ 1032  mv ../storage54b/*/raw/* raw/
+ 1033  mv ../storage54b/*/compiled/* compiled/
+ 1034  ls compiled/
+ 1035  ls raw/
+ 1036  ls
+ 1037  ls storage10/raw/
+ 1038  ls storage/compiled/
+ 1039  ls
+ 1040  cd ..
+ 1041  cd storage54b
+ 1042  ls
+ 1043  ls storage0/raw/
+ 1044  cd ..
+ 1045  ls
+ 1046  mkdir de-search-yahoo
+ 1047  mkdir zoominfo
+ 1048  mkdir duckduckgo
+ 1049  mkdir ask-com
+ 1050  mkdir bing
+ 1051  mkdir google-lu
+ 1052  mkdir alternativeto
+ 1053  mkdir spokeo
+ 1054  mkdir tineye
+ 1055  mkdir wolframalpha
+ 1056  for dir in */; do mkdir -- "$dir/raw"; done
+ 1057  ls
+ 1058  mkdir search
+ 1059  mv alternativeto/ ask-com/ bing/ de-search-yahoo/ duckduckgo/ google-lu/ spokeo/ tineye/ wolframalpha/ zoominfo/
+ 1060  mv zoominfo/* search/
+ 1061  mkdir search/zoominfo
+ 1062  cd search/
+ 1063  ls
+ 1064  for dir in */; do mkdir -- "$dir/raw"; done
+ 1065  for dir in */; do mkdir -- "$dir/compiled"; done
+ 1066  cd ..
+ 1067  rm -r zoominfo/
+ 1068  ls
+ 1069  cd search/
+ 1070  ls
+ 1071  ls de-search-yahoo/
+ 1072  cd ..
+ 1073  ls
+ 1074  mv storage54/raw/*altern* search/alternativeto/raw
+ 1075  mv storage54/compiled/*altern* search/alternativeto/compiled/
+ 1076  mv storage54/compiled/*ask* search/ask/compiled/
+ 1077  mv storage54/compiled/*ask* search/ask-com/compiled/
+ 1078  mv storage54/raw/*ask* search/ask-com/raw/
+ 1079  mv storage54/raw/*bing* search/bing/raw/
+ 1080  mv storage54/compiled/*bing* search/bing/compiled/
+ 1081  mv storage54/compiled/*yahoo* search/de-search-yahoo/compiled/
+ 1082  mv storage54/raw/*yahoo* search/de-search-yahoo/raw/
+ 1083  mv storage54/raw/*duckdu* search/duckduckgo/raw/
+ 1084  mv storage54/compiled/*duckdu* search/duckduckgo/compiled/
+ 1085  mv storage54/compiled/*google* search/google-lu/compiled/
+ 1086  mv storage54/raw/*google* search/google-lu/raw/
+ 1087  mv storage54/raw/*spokeo* search/spokeo/raw/
+ 1088  mv storage54/compiled/*spokeo* search/spokeo/compiled/
+ 1089  mv storage54/compiled/*tineye* search/tineye/compiled/
+ 1090  mv storage54/raw/*tineye* search/tineye/raw/
+ 1091  mv storage54/raw/*wolf* search/wolframalpha/raw/
+ 1092  mv storage54/raw/*compiled* search/wolframalpha/compiled/
+ 1093  mv storage54/raw/*wolf* search/wolframalpha/compiled/
+ 1094  mv storage54/compiled/*wolf* search/wolframalpha/compiled/
+ 1095  ls
+ 1096  cd storage54
+ 1097  ls
+ 1098  ls raw/
+ 1099  ls compiled/
+ 1100  cd ..
+ 1101  mkdir search/iconfinder
+ 1102  mkdir search/iconfinder/raw
+ 1103  mkdir search/iconfinder/compiled
+ 1104  ls search/
+ 1105  mv storage54/compiled/*wolf* search/wolframalpha/compiled/
+ 1106  mv storage54/compiled/*icon* search/iconfinder/compiled/
+ 1107  mv storage54/raw/*icon* search/iconfinder/raw/
+ 1108  mv storage54/raw/*zoom* search/zoominfo/raw/
+ 1109  mv storage54/compiled/*zoom* search/zoominfo/compiled/
+ 1110  cd storage54
+ 1111  ls
+ 1112  ls raw
+ 1113  ls compiled/
+ 1114  ls
+ 1115  ls storage1
+ 1116  ls storage1/raw/
+ 1117  ls storage1/compiled/
+ 1118  ls raw/
+ 1119  ls compiled/
+ 1120  cd ..
+ 1121  rm -r storage54
+ 1122  cd storage54b
+ 1123  ls
+ 1124  ls storage1/raw/
+ 1125  ls
+ 1126  ls storage2/raw/
+ 1127  cd ..
+ 1128  rm -r storage54b
+ 1129  ls search/
+ 1130  ls
+ 1131  cd storage56
+ 1132  ls
+ 1133  ls raw/
+ 1134  mkdir compiled
+ 1135  mv */raw/* raw/
+ 1136  mv */compiled/* compiled/
+ 1137  ls raw/
+ 1138  ls compiled/
+ 1139  cd ..
+ 1140  ls
+ 1141  mkdir tech
+ 1142  cd tech/
+ 1143  mkdir aws-amazon
+ 1144  mkdir apple
+ 1145  mkdir autodesk
+ 1146  mkdir github
+ 1147  mkdir godaddy
+ 1148  mkdir unity3d
+ 1149  mkdir wordpress
+ 1150  mkdir adobe
+ 1151  mkdir mcafee
+ 1152  mkdir microsoft
+ 1153  mkdir oracle
+ 1154  for dir in */; do mkdir -- "$dir/raw"; done
+ 1155  for dir in */; do mkdir -- "$dir/compiled"; done
+ 1156  ls
+ 1157  cd ..
+ 1158  ls
+ 1159  cd storage59
+ 1160  ls
+ 1161  lsr
+ 1162  ls raw/
+ 1163  cd ..
+ 1164  rm -r storage59
+ 1165  cd storage56
+ 1166  ls
+ 1167  ls raw/
+ 1168  ls compiled/
+ 1169  cd ..
+ 1170  ls
+ 1171  cd storage60
+ 1172  ls
+ 1173  ls storage0/raw/
+ 1174  cd ..
+ 1175  ls
+ 1176  mv storage56/raw/*adobe* tech/adobe/raw/
+ 1177  mv storage56/compiled/*adobe* tech/adobe/compiled/
+ 1178  mv storage56/compiled/*apple* tech/apple/compiled/
+ 1179  mv storage56/raw/*apple* tech/apple/raw/
+ 1180  mv storage56/raw/*autodesk* tech/autodesk/raw/
+ 1181  mv storage56/compiled/*autodesk* tech/autodesk/compiled/
+ 1182  mv storage56/compiled/*aws* tech/aws-amazon/compiled/
+ 1183  mv storage56/raw/*aws* tech/aws-amazon/raw/
+ 1184  mv storage56/raw/*mcaf* tech/mcafee/raw/
+ 1185  mv storage56/compiled/*mcaf* tech/mcafee/compiled/
+ 1186  mv storage56/compiled/*micr* tech/microsoft/compiled/
+ 1187  mv storage56/raw/*micr* tech/microsoft/raw/
+ 1188  mv storage56/raw/*orac* tech/oracle/raw/
+ 1189  mv storage56/compiled/*orac* tech/oracle/compiled/
+ 1190  mv storage56/compiled/*git* tech/github/compiled/
+ 1191  mv storage56/raw/*git* tech/github/raw/
+ 1192  mv storage56/raw/*god* tech/godaddy/raw/
+ 1193  mv storage56/compiled/*god* tech/godaddy/compiled/
+ 1194  mv storage56/compiled/*unit* tech/unity3d/compiled/
+ 1195  mv storage56/raw/*unit* tech/unity3d/raw/
+ 1196  mv storage56/raw/*word* tech/wordpress/raw/
+ 1197  mv storage56/compiled/*word* tech/wordpress/compiled/
+ 1198  cd storage56
+ 1199  ls
+ 1200  ls raw/
+ 1201  ls compiled/
+ 1202  ls storage15
+ 1203  ls storage15/raw/
+ 1204  ls storage15/compiled/
+ 1205  ls raw/
+ 1206  ls compiled/
+ 1207  cd ..
+ 1208  ls
+ 1209  rm -r storage56
+ 1210  ls
+ 1211  mkdir travel
+ 1212  cd travel
+ 1213  mkdir airfrance
+ 1214  mkdir cheapflight
+ 1215  mkdir de-delta
+ 1216  mkdir fr-hotels
+ 1217  mkdir momondo
+ 1218  mkdir americanairlines
+ 1219  mkdir lonelyplanet
+ 1220  mkdir tripadvisor
+ 1221  mkdir trivago
+ 1222  mkdir united
+ 1223  for dir in */; do mkdir -- "$dir/raw"; done
+ 1224  for dir in */; do mkdir -- "$dir/compiled"; done
+ 1225  cd ..
+ 1226  cd storage60/
+ 1227  ls
+ 1228  ls raw/
+ 1229  mv */raw/* raw/
+ 1230  mkdir compiled/
+ 1231  mv */compiled/* compiled/
+ 1232  ls
+ 1233  ls compiled/
+ 1234  ls raw/
+ 1235  ls
+ 1236  ls storage13/raw/
+ 1237  ls storage13/compiled/
+ 1238  cd ..
+ 1239  ls
+ 1240  mv storage60/raw/*airlines* travel/americanairlines/raw/
+ 1241  mv storage60/compiled/*airlines* travel/americanairlines/compiled/
+ 1242  mv storage60/compiled/*airfrance* travel/airfrance/compiled/
+ 1243  mv storage60/raw/*airfrance* travel/airfrance/raw/
+ 1244  mv storage60/raw/*cheap* travel/cheapflight/raw/
+ 1245  mv storage60/compiled/*cheap* travel/cheapflight/compiled/
+ 1246  mv storage60/compiled/*de-delt* travel/de-delta/compiled/
+ 1247  mv storage60/raw/*de-delt* travel/de-delta/raw/
+ 1248  mv storage60/raw/*fr-hotels* travel/fr-hotels/raw/
+ 1249  mv storage60/compiled/*fr-hotels* travel/fr-hotels/compiled/
+ 1250  mv storage60/compiled/*momo* travel/momondo/compiled/
+ 1251  mv storage60/raw/*momo* travel/momondo/raw/
+ 1252  mv storage60/raw/*trip* travel/tripadvisor/raw/
+ 1253  mv storage60/compiled/*trip* travel/tripadvisor/compiled/
+ 1254  mv storage60/compiled/*triv* travel/trivago/compiled/
+ 1255  mv storage60/raw/*triv* travel/trivago/raw/
+ 1256  mv storage60/raw/*lone* travel/lonelyplanet/raw/
+ 1257  mv storage60/compiled/*lone* travel/lonelyplanet/compiled/
+ 1258  mv storage60/compiled/*unit* travel/united/compiled/
+ 1259  mv storage60/raw/*unit* travel/united/raw/
+ 1260  cd storage60/raw/
+ 1261  ls
+ 1262  cd ..
+ 1263  ls compiled/
+ 1264  ls
+ 1265  ls storage3/raw/
+ 1266  ls storage_incomplete27r
+ 1267  ls storage_incomplete2/raw/
+ 1268  cd ..
+ 1269  rm -r storage60/
+ 1270  ls
+ 1271  cd education/
+ 1272  ls
+ 1273  exit
+ 1274  cd /mnt/crawler/Buscemi/
+ 1275  ls
+ 1276  ls old_storage/
+ 1277  ls
+ 1278  nano script.sh
+ 1279  cd multimedia/
+ 1280  ls
+ 1281  cd ..
+ 1282  ls
+ 1283  cd education/
+ 1284  ls
+ 1285  cd harvard/
+ 1286  ls
+ 1287  cd raw/
+ 1288  ls
+ 1289  cd ..
+ 1290  ls
+ 1291  nano script.sh
+ 1292  sudo chmod 777 script.sh 
+ 1293  chmod 777 script.sh 
+ 1294  ./script.sh 
+ 1295  ls
+ 1296  cd blog_social/
+ 1297  ls
+ 1298  cd 9gag/
+ 1299  ls
+ 1300  cd raw/
+ 1301  ls
+ 1302  cd *2315*
+ 1303  ls
+ 1304  ls output-tcp/
+ 1305  cd ..
+ 1306  ls
+ 1307  ls r
+ 1308  ls raw
+ 1309  ls
+ 1310  cd raw
+ 1311  ls
+ 1312  cd ..
+ 1313  rm -r raw/
+ 1314  cd ..
+ 1315  ./script.sh 
+ 1316  exit
+ 1317  cd /mnt/crawler/Buscemi/
+ 1318  cd retail/
+ 1319  ls
+ 1320  cd crawling/
+ 1321  ls
+ 1322  ls r
+ 1323  ls
+ 1324  rm -r *pc06*
+ 1325  ls
+ 1326  cd storage_ikea1
+ 1327  ls
+ 1328  ls raw/
+ 1329  cd ..
+ 1330  mv storage_ikea1/compiled/* storage_ikea/compiled/
+ 1331  mv storage_ikea1/raw/* storage_ikea/raw/
+ 1332  rm -r storage_ikea1
+ 1333  ls
+ 1334  exit
+ 1335  cd /mnt/crawler/Buscemi/
+ 1336  ls
+ 1337  cd tech/
+ 1338  ls
+ 1339  ls adobe/compiled/
+ 1340  cd mcafee/
+ 1341  ls compiled/
+ 1342  exit
+ 1343  cd /mnt/crawler/ls
+ 1344  cd /mnt/crawler/
+ 1345  ls
+ 1346  cd Buscemi/
+ 1347  s
+ 1348  ls
+ 1349  exit
+ 1350  cd /mnt/crawler/Buscemi/
+ 1351  ls
+ 1352  ls bankofamerica/
+ 1353  ls finance/
+ 1354  ls finance/raw/
+ 1355  cd finance/
+ 1356  ls
+ 1357  rm -r raw/
+ 1358  ls crawling/
+ 1359  ls bankofamerica
+ 1360  cd crawling/
+ 1361  ls bankofamerica/
+ 1362  ls r
+ 1363  ls bankofamerica/compiled/
+ 1364  cd ..
+ 1365  ls bankofamerica/compiled/
+ 1366  cd finance/
+ 1367  cd crawling/
+ 1368  ls
+ 1369  mv bankofamerica/ ../../old_storage/
+ 1370  cd ..
+ 1371  mv bankofamerica/ finance/crawling/
+ 1372  ls
+ 1373  ls ftserussel/
+ 1374  ls ftserussel/compiled/
+ 1375  cd finance/crawling/
+ 1376  ls
+ 1377  ls ftserussel/compiled/
+ 1378  mv ftserussel/ ../../old_storage/
+ 1379  cd ..
+ 1380  mv ftserussel/ finance/crawling/
+ 1381  ls
+ 1382  ls blog_social/
+ 1383  cd blog_social/
+ 1384  ls
+ 1385  mkdir crawling
+ 1386  mv * crawling/
+ 1387  ls
+ 1388  mkdir final_features
+ 1389  ls
+ 1390  cd ..
+ 1391  ls
+ 1392  cd education/
+ 1393  ls
+ 1394  mkdir crawling
+ 1395  mv * crawling/
+ 1396  mkdir final_features
+ 1397  cd ..
+ 1398  cd finance/
+ 1399  ls
+ 1400  mkdir final_features
+ 1401  cd ..
+ 1402  ls
+ 1403  cd multimedia/
+ 1404  ls
+ 1405  ls raw/
+ 1406  rm -r raw/
+ 1407  mv old_final_features/ ../old_storage/
+ 1408  mkdir final_features
+ 1409  ls
+ 1410  cd ..
+ 1411  ls
+ 1412  cd news/
+ 1413  ls
+ 1414  mkdir crawling
+ 1415  mv * crawling/
+ 1416  mkdir final_features
+ 1417  cd ..
+ 1418  ls
+ 1419  cd public/
+ 1420  ls
+ 1421  mkdir crawling
+ 1422  mv * crawling/
+ 1423  mkdir final_features
+ 1424  cd ..
+ 1425  ls
+ 1426  ls news/
+ 1427  cd retail/
+ 1428  ls
+ 1429  mv final_features/ ../old_storage/final_features_retail_old
+ 1430  ls
+ 1431  ls raw/
+ 1432  rm -r raw/
+ 1433  cd ..
+ 1434  ls
+ 1435  cd search/
+ 1436  ls
+ 1437  mkdir crawling 
+ 1438  mv * crawling/
+ 1439  mkdir final_features
+ 1440  ls
+ 1441  cd ..
+ 1442  ls
+ 1443  cd tech/
+ 1444  ls
+ 1445  mkdir crawling
+ 1446  mv * crawling/
+ 1447  mkdir final_features
+ 1448  cd ..
+ 1449  cd travel/
+ 1450  ls
+ 1451  mkdir crawling
+ 1452  mv * crawling/
+ 1453  ls
+ 1454  mkdir final_features
+ 1455  cd ..
+ 1456  ls
+ 1457  exit
+ 1458  cd /mnt/crawler/Buscemi/
+ 1459  ls
+ 1460  cd finance/
+ 1461  ls
+ 1462  cd crawling/
+ 1463  ls
+ 1464  cd bankofamerica/
+ 1465  ls
+ 1466  mv feature-tcp/ ../../final_features/bankofamerica
+ 1467  ls
+ 1468  rm script.sh 
+ 1469  ls
+ 1470  cd ..
+ 1471  ls
+ 1472  cd ftserussel/
+ 1473  ls
+ 1474  mv feature-tcp/ ../../final_features/ftserussel
+ 1475  cd ..
+ 1476  ls
+ 1477  cd ..
+ 1478  ls
+ 1479  exit
+ 1480  cd /mnt/
+ 1481  ls
+ 1482  cd crawler/
+ 1483  ls
+ 1484  cd Buscemi/
+ 1485  ls
+ 1486  cd finance/
+ 1487  ls
+ 1488  ls final_features/
+ 1489  exit
+ 1490  cd /mnt/crawler/Buscemi/
+ 1491  ls
+ 1492  cd search/
+ 1493  cd ..
+ 1494  cd retail/
+ 1495  ls
+ 1496  mkdir final_features
+ 1497  exit
+ 1498  cd /mnt/crawler/Buscemi/
+ 1499  ls
+ 1500  cd retail/
+ 1501  ls
+ 1502  cd crawling/
+ 1503  ls
+ 1504  exit
+ 1505  cd /mnt/crawler/Buscemi/
+ 1506  ls
+ 1507  cd education/
+ 1508  ls
+ 1509  ls final_features/
+ 1510  cd ..
+ 1511  ls finance/final_features/
+ 1512  ls multimedia/final_features/
+ 1513  ls public/final_features/
+ 1514  ls public/final_features/presidencia/
+ 1515  ls retail/final_features/
+ 1516  ls search/final_features/
+ 1517  ls blog_social/final_features/
+ 1518  ls tech/final_features/
+ 1519  ls travel/final_features/
+ 1520  ls search/final_features/
+ 1521  ls travel/final_features/bing/ search/final_features/
+ 1522  mv travel/final_features/bing/ search/final_features/
+ 1523  ls search/final_features/
+ 1524  ls travel/final_features/
+ 1525  ls blog_social/
+ 1526  ls blog_social/final_features/
+ 1527  ls -1 | wc -l
+ 1528  ls -1 */final_features | wc -l
+ 1529  ls
+ 1530  nano old_storage/
+ 1531  cd old_storage/
+ 1532  ls
+ 1533  cd ..
+ 1534  ls
+ 1535  ls blog_social/
+ 1536  ls blog_social/final_features/
+ 1537  ls education/final_features/
+ 1538  ls finance/final_features/
+ 1539  ls multimedia/final_features/
+ 1540  ls
+ 1541  ls news/final_features/
+ 1542  exit
+ 1543  cd /mnt/crawler/Buscemi/
+ 1544  ls
+ 1545  cd blog_social/
+ 1546  ls final_features/
+ 1547  exit
+ 1548  cd /mnt/crawler/Buscemi/
+ 1549  ls
+ 1550  exit
+ 1551  cd /mnt/crawler/Buscemi/
+ 1552  ls
+ 1553  cd blog_social/
+ 1554  ls
+ 1555  cd final_features/
+ 1556  ls
+ 1557  cd 9gag/
+ 1558  ls
+ 1559  cd ..
+ 1560  ls badoo/
+ 1561  ls bloggernews/
+ 1562  ls fiverr/
+ 1563  ls
+ 1564  ls tumblr/
+ 1565  cd ..
+ 1566  ls
+ 1567  cd fu
+ 1568  cd final_features/
+ 1569  s
+ 1570  ls
+ 1571  ls mailchimp/
+ 1572  ls
+ 1573  ls 9gag/
+ 1574  cd ..
+ 1575  ls
+ 1576  exit
+ 1577  cd /mnt/crawler/Buscemi/
+ 1578  ls
+ 1579  cd blog_social/
+ 1580  ls
+ 1581  cd crawling/
+ 1582  ls
+ 1583  ls 9gag 
+ 1584  ls
+ 1585  cd 9gag
+ 1586  ls
+ 1587  cd compiled/
+ 1588  ls
+ 1589  cd ..
+ 1590  ls
+ 1591  cd 9gag/
+ 1592  ls
+ 1593  cd compiled/
+ 1594  ls
+ 1595  cd *163*
+ 1596  ls
+ 1597  cd output-tcp/
+ 1598  ls
+ 1599  cd ..
+ 1600  ls
+ 1601  cd ..
+ 1602  ls
+ 1603  nano *140424*
+ 1604  cd *140424*
+ 1605  ls
+ 1606  ls output-tcp/
+ 1607  cd ..
+ 1608  ls
+ 1609  cd compiled/
+ 1610  ls *10453*
+ 1611  ls *10453*/output*
+ 1612  cd ..
+ 1613  mkdir homepage
+ 1614  mkdir homepage/9gag
+ 1615  mv 9gag/compiled/*/http:__9gag.com___-___ homepage/9gag/
+ 1616  mv 9gag/compiled/*/http:__9gag.com___-___* homepage/9gag/
+ 1617  mv 9gag/compiled/*/out*/http:__9gag.com___-___* homepage/9gag/
+ 1618  ls homepage/9gag
+ 1619  ls 
+ 1620  cd badoo/
+ 1621  ls
+ 1622  ls compiled/
+ 1623  ls *112019*
+ 1624  ls compiled/*112019*/*out*
+ 1625  cd ..
+ 1626  ls
+ 1627  cd ..
+ 1628  ls
+ 1629  cd ..
+ 1630  cd 9g
+ 1631  cd blog_social/
+ 1632  cd 9gag
+ 1633  ls
+ 1634  kls
+ 1635  cd crawling/
+ 1636  ls
+ 1637  cd ..
+ 1638  ls
+ 1639  cd crawling/
+ 1640  ls
+ 1641  cd 9gag/
+ 1642  ls
+ 1643  cd o
+ 1644  cd ..
+ 1645  ls
+ 1646  cd crawling/
+ 1647  ls
+ 1648  mkdir homepage/badoo
+ 1649  mkdir homepage/fiverr
+ 1650  mkdir homepage/gamefaqs
+ 1651  mkdir homepage/hootsuite
+ 1652  mkdir homepage/lifehacker
+ 1653  mkdir homepage/livejournal
+ 1654  mkdir homepage/mailchimp
+ 1655  mkdir homepage/meetup
+ 1656  mkdir homepage/tumblr
+ 1657  cd bloggernews/compiled/*
+ 1658  ls
+ 1659  cd output-tcp/
+ 1660  ls
+ 1661  cd ..
+ 1662  cd ...
+ 1663  cd ..
+ 1664  mv 9gag/compiled/*/https:__badoo.com_de____-___* homepage/badoo
+ 1665  mv badoo/compiled/*/https:__badoo.com_de____-___* homepage/badoo
+ 1666  mv bloggernews/compiled/*/http:__www.bloggernews.net___-___* homepage/bloggernews
+ 1667  mv badoo/compiled/*/out*/https:__badoo.com_de____-___* homepage/badoo
+ 1668  mv bloggernews/compiled/*/out*/http:__www.bloggernews.net___-___* homepage/bloggernews
+ 1669  ls homepage/
+ 1670  mkdir homepage/bloggernews
+ 1671  mv bloggernews/compiled/*/out*/http:__www.bloggernews.net___-___* homepage/bloggernews
+ 1672  ls 
+ 1673  ls fiverr/compiled/20180616_151609_test100_180_www-fiverr-com-_as28-pc07/output-tcp/
+ 1674  ls
+ 1675  ls gamefaqs/compiled/20180615_190453_test100_180_gamefaqs-com_as28-pc07/output-tcp/
+ 1676  ls
+ 1677  ls hootsuite/compiled/20180616_125511_test100_180_hootsuite-com-fr-_as28-pc07/output-tcp/
+ 1678  ls
+ 1679  ls lifehacker/compiled/20180615_211800_test100_180_lifehacker-com-_as28-pc07/output-tcp/
+ 1680  ls livejournal/compiled/20180616_175607_test100_180_www-livejournal-com_as28-pc07/output-tcp/
+ 1681  ls
+ 1682  ls mailchimp/compiled/20180616_050133_test100_180_us12-admin-mailchimp-com-_as28-pc07/output-tcp/
+ 1683  cd ..
+ 1684  ls
+ 1685  cd blog_social/
+ 1686  ls
+ 1687  cd crawling/
+ 1688  ls
+ 1689  ls meetup/compiled/20180616_192929_test100_180_www-meetup-com-de-DE-_as28-pc07/output-tcp/
+ 1690  ls tumblr/compiled/20180616_093241_test100_180_www-tumblr-com_as28-pc07/output-tcp/
+ 1691  mv fiverr/compiled/*/out*/https:__www.fiverr.com____-___* homepage/fiverr
+ 1692  mv gamefaqs/compiled/*/out*/https:__gamefaqs.gamespot.com____-___* homepage/gamefaqs
+ 1693  mv hootsuite/compiled/*/out*/https:__hootsuite.com_fr____-___* homepage/hootsuite
+ 1694  mv lifehacker/compiled/*/out*/http:__lifehacker.com____-___* homepage/lifehacker
+ 1695  mv livejournal/compiled/*/out*/https:__www.livejournal.com____-___* homepage/livejournal
+ 1696  mv mailchimp/compiled/*/out*/https:__login.mailchimp.com____-___* homepage/mailchimp
+ 1697  mv meetup/compiled/*/out*/https:__www.meetup.com_de-DE____-___* homepage/meetup
+ 1698  mv tumblr/compiled/*/out*/https:__www.tumblr.com____-___* homepage/tumblr
+ 1699  cd ..
+ 1700  ls
+ 1701  cd education/
+ 1702  ls
+ 1703  cd crawling/
+ 1704  ls
+ 1705  mkdir homepage
+ 1706  ls berkley/compiled/20180615_201505_test100_180_www-berkley-edu-_as28-pc12/output-tcp/
+ 1707  ls
+ 1708  mkdir/berkley
+ 1709  mkdir homepage/berkley
+ 1710  mkdir homepage/blackboard
+ 1711  mkdir homepage/cambridge
+ 1712  mkdir homepage/coursera
+ 1713  mkdir homepage/edx
+ 1714  mkdir homepage/harvard
+ 1715  mkdir homepage/lynda
+ 1716  mkdir homepage/mit
+ 1717  mkdir homepage/ucla
+ 1718  mkdir homepage/udemy
+ 1719  ls blackboard/compiled/20180615_171624_test100_180_de-blackboard-com-_as28-pc12/output-tcp/
+ 1720  ls
+ 1721  ls cambridge/compiled/20180615_215657_test100_180_www-cambridge-org-_as28-pc12/output-tcp/
+ 1722  ls
+ 1723  ls coursera/compiled/20180615_235251_test100_180_www-coursera-org_as28-pc12/output-tcp/
+ 1724  ls edx/compiled/20180616_015011_test100_180_www-edx-org-_as28-pc12/output-tcp/
+ 1725  ls 
+ 1726  ls harvard/compiled/20180616_033709_test100_180_www-harvard-edu-_as28-pc12/output-tcp/
+ 1727  ls
+ 1728  ls lynda/
+ 1729  ls lynda/compiled/20180616_051711_test100_180_www-lynda-com_as28-pc12/output-tcp/
+ 1730  ls
+ 1731  ls mit/compiled/20180615_190415_test100_180_web-mit-edu-_as28-pc12/output-tcp/
+ 1732  ls
+ 1733  ls ucla/compiled/20180616_070024_test100_180_www-ucla-edu-_as28-pc12/output-tcp/
+ 1734  ls
+ 1735  ls udemy/compiled/20180616_083526_test100_180_www-udemy-com-_as28-pc12/output-tcp/
+ 1736  mv berkley/compiled/*/out*/http:__www.berkeley.edu____-___* homepage/berkeley
+ 1737  mv blackboard/compiled/*/out*/http:__de.blackboard.com____-___* homepage/blackboard
+ 1738  mv cambridge/compiled/*/out*/http:__www.cambridge.org____-___* homepage/cambridge
+ 1739  mv coursera/compiled/*/out*/https:__www.coursera.org____-___* homepage/coursera
+ 1740  mv edx/compiled/*/out*/https:__www.edx.org____-___* homepage/edx
+ 1741  mv harvard/compiled/*/out*/http:__www.harvard.edu____-___* homepage/harvard
+ 1742  mv lynda/compiled/*/out*/https:__www.lynda.com___-___* homepage/lynda
+ 1743  mv mit/compiled/*/out*/http:__web.mit.edu____-___* homepage/mit
+ 1744  mv ucla/compiled/*/out*/http:__www.ucla.edu____-___* homepage/ucla
+ 1745  mv udemy/compiled/*/out*/https:__www.udemy.com____-___* homepage/udemy
+ 1746  cd ..
+ 1747  ls
+ 1748  cd ..
+ 1749  ls
+ 1750  cd finance/
+ 1751  ls
+ 1752  cd crawling/
+ 1753  ls
+ 1754  mkdir homepage/americanexpress
+ 1755  mkdir homepage/
+ 1756  mkdir homepage/americanexpress
+ 1757  mkdir homepage/bankofamerica
+ 1758  mkdir homepage/chase
+ 1759  mkdir homepage/db
+ 1760  mkdir homepage/discover
+ 1761  mkdir homepage/ftserussel
+ 1762  mkdir homepage/hdfcbank
+ 1763  mkdir homepage/icicibank
+ 1764  mkdir homepage/paypal
+ 1765  mkdir homepage/wellsfargo
+ 1766  mkdir homepage/wordbank
+ 1767  ls americanexpress/compiled/20180615_182814_test100_180_www-americanexpress-com_as28-pc08/output-tcp/
+ 1768  ls
+ 1769  ls bankofamerica/compiled/20180615_202733_test100_180_www-bankofamerica-com-_as28-pc08/output-tcp/
+ 1770  ls
+ 1771  ls chase/
+ 1772  ls chase/compiled/20180615_234149_test100_180_www-chase-com-_as28-pc08/output-tcp/
+ 1773  ls
+ 1774  ls db/compiled/20180616_012456_test100_180_www-db-com-_as28-pc08/output-tcp/
+ 1775  ls
+ 1776  ls discover/
+ 1777  ls discover/compiled/20180616_023238_test100_180_www-discover-ec_as28-pc08/output-tcp/
+ 1778  ls
+ 1779  ls ftserussel/compiled/20180615_164815_test100_180_ftserussel-com_as28-pc08/output-tcp/
+ 1780  ls
+ 1781  ls hdfcbank/compiled/20180616_040849_test100_180_www-hdfcbank-com-_as28-pc08/output-tcp/
+ 1782  ls
+ 1783  ls icicibank/compiled/20180616_054145_test100_180_www-icicibank-com-_as28-pc08/output-tcp/
+ 1784  ls
+ 1785  ls paypal/compiled/20180616_073212_test100_180_www-paypal-com-lu-_as28-pc08/output-tcp/
+ 1786  ls
+ 1787  ls wellsfargo/compiled/20180616_092505_test100_180_www-wellsfargo-com_as28-pc08/output-tcp/
+ 1788  ls worldbank/compiled/20180616_110322_test100_180_www-worldbank-org-_as28-pc08/output-tcp/
+ 1789  cd ..
+ 1790  ls
+ 1791  cd ..
+ 1792  ls
+ 1793  cd multimedia/
+ 1794  ls
+ 1795  cd crawling/
+ 1796  ls
+ 1797  mkdir homepage
+ 1798  mkdir homepage/dailymotion
+ 1799  mkdir homepage/di
+ 1800  mkdir homepage/flickr
+ 1801  mkdir homepage/hypem
+ 1802  mkdir homepage/imgur
+ 1803  mkdir homepage/last-fm
+ 1804  mkdir homepage/soundcloud
+ 1805  mkdir homepage/tunein
+ 1806  mkdir homepage/vimeo
+ 1807  mkdir homepage/youtube
+ 1808  ls storage_dailymotion/compiled/20180626_174213_test100_180_www-dailymotion-com-_as28-pc03/output-tcp/
+ 1809  cd ..
+ 1810  ls
+ 1811  cd multimedia/
+ 1812  ls
+ 1813  cd crawling/
+ 1814  ls
+ 1815  mv storage_dailymotion/ dailymotion/
+ 1816  mv storage_di/ di
+ 1817  mv storage_flickr/ flickr
+ 1818  mv storage_hypem/ hypem
+ 1819  mv storage_imgur/ imgur
+ 1820  mv storage_last-fm/ last-fm
+ 1821  mv storage_soundcloud/ soundcloud
+ 1822  mv storage_tunein/ tunein
+ 1823  mv storage_vimeo/ vimeo
+ 1824  mv storage_youtube/ youtube
+ 1825  ls di/compiled/20180626_160438_test100_180_www-di-fm-_as28-pc02/output-tcp/
+ 1826  ls
+ 1827  ls flickr/compiled/20180626_174645_test100_180_www-flickr-com-_as28-pc02/output-tcp/
+ 1828  cd ..
+ 1829  ls
+ 1830  cd ..
+ 1831  ls
+ 1832  cd multimedia/
+ 1833  ls
+ 1834  cd crawling/
+ 1835  ls
+ 1836  ls homepage/
+ 1837  ls hypem/compiled/20180625_145501_test100_180_hypem-com-_gollum-03/output-tcp/
+ 1838  ls hypem/compiled/
+ 1839  ls hypem/compiled/20180627_023609_test100_180_hypem-com-_as28-pc04/output-tcp/
+ 1840  ls imgur/compiled/20180626_172228_test100_180_imgur-com-_as28-pc04/output-tcp/
+ 1841  ls
+ 1842  ls soundcloud/compiled/20180626_154009_test100_180_soundcloud-com-_as28-pc05/output-tcp/
+ 1843  ls
+ 1844  ls tunein/
+ 1845  ls tunein/compiled/20180626_174355_test100_180_tunein-com-_as28-pc05/output-tcp/
+ 1846  ls
+ 1847  cd vimeo/
+ 1848  ls
+ 1849  cd ..
+ 1850  ls vimeo/compiled/20180626_155226_test100_180_vimeo-com-_as28-pc03/output-tcp/
+ 1851  ls
+ 1852  ls youtube/compiled/20180701_170209_test100_180_www-youtube-com-_as28-pc02/output-tcp/
+ 1853  mv dailymotion/compiled/*/out*/https___www.dailymotion.com___-___* homepage/dailymotion
+ 1854  mv di/compiled/*/out*/www.di.fm____-___* homepage/di
+ 1855  mv flickr/compiled/*/out*/https___www.flickr.com____-___* homepage/flickr
+ 1856  mv hypem/compiled/*/out*/https___hypem.com____-___*  homepage/hypem
+ 1857  mv imgur/compiled/*/out*/https___imgur.com____-___* homepage/imgur
+ 1858  mv soundcloud/compiled/*/out*/https___soundcloud.com____-___* homepage/soundcloud
+ 1859  mv tunein/compiled/*/out*/https___tunein.com____-___*  homepage/tunein
+ 1860  mv vimeo/compiled/*/out*/https___vimeo.com____-___* homepage/vimeo
+ 1861  mv youtube/compiled/*/out*/https___www.youtube.com____-___* homepage/youtube
+ 1862  ls homepage/
+ 1863  mv di/compiled/*/out*/https___/www.di.fm____-___* homepage/di
+ 1864  mv di/compiled/*/out*/https___www.di.fm____-___* homepage/di
+ 1865  ls 
+ 1866  ls dailymotion/compiled/20180626_174213_test100_180_www-dailymotion-com-_as28-pc03/output-tcp/
+ 1867  cd ..
+ 1868  cd crawling/
+ 1869  ls
+ 1870  ls dailymotion/compiled/
+ 1871  ls dailymotion/compiled/*1004*
+ 1872  ls dailymotion/compiled/*1004*/out*
+ 1873  mv dailymotion/compiled/*/out*/https___www.dailymotion.com____-___* homepage/dailymotion
+ 1874  cd ..
+ 1875  ls
+ 1876  cd crawling/
+ 1877  ls
+ 1878  cd ..
+ 1879  ls
+ 1880  cd news/
+ 1881  ls
+ 1882  cd crawling/
+ 1883  ls
+ 1884  cd dailymail/
+ 1885  ls
+ 1886  cd 
+ 1887  cd /mnt/crawler/Buscemi/news/crawling/
+ 1888  ls dailymail/compiled/20180615_214259_test100_180_www-dailymail-co-uk-_as28-pc10/output-tcp/
+ 1889  ls
+ 1890  ls daily-news-egypt-com/
+ 1891  ls daily-news-egypt-com/compiled/20180615_170632_test100_180_daily-news-egypt-com_as28-pc10/output-tcp/
+ 1892  ls
+ 1893  ls forbes/compiled/20180616_002238_test100_180_www-forbes-com-_as28-pc10/output-tcp/
+ 1894  ls
+ 1895  ls news-google-com/
+ 1896  ls co
+ 1897  ls news-google-com/compiled/
+ 1898  ls news-google-com/compiled/20180615_185631_test100_180_news-google-com-_as28-pc10/output-tcp/
+ 1899  ls
+ 1900  ls nytimes/
+ 1901  ls nytimes/compiled/20180616_021006_test100_180_www-nytimes-com-_as28-pc10/output-tcp/
+ 1902  ls
+ 1903  ls theguardian/compiled/20180616_040447_test100_180_www-theguardian-com-_as28-pc10/output-tcp/
+ 1904  mkdir homepage
+ 1905  mkdir homepage/dailymail
+ 1906  mkdir homepage/daily-news-egypt-com
+ 1907  mkdir homepage/forbes
+ 1908  mkdir homepage/news-google-com
+ 1909  mkdir homepage/nytimes
+ 1910  mkdir homepage/theguardian
+ 1911  mkdir homepage/wikileaks-org
+ 1912  mkdir homepage/yahoo
+ 1913  ls wikileaks-org/compiled/20180615_205506_test100_180_wikileaks-org_as28-pc10/output-tcp/
+ 1914  ls yahoo/compiled/20180616_120456_test100_180_www-yahoo-com-news-_as28-pc10/output-tcp/
+ 1915  ls
+ 1916  cd ..
+ 1917  sl
+ 1918  ls
+ 1919  cd public/
+ 1920  ls
+ 1921  cd crawling/
+ 1922  ls
+ 1923  cd ..
+ 1924  cd news/
+ 1925  ls
+ 1926  cd crawling/
+ 1927  ls
+ 1928  mv dailymail/compiled/*/out*/http:__www.dailymail.co.uk____-___* homepage/dailymail
+ 1929  mv daily-news-egypt-com/compiled/*/out*/https:__www.egyptdailynews.com____-___* homepage/daily-news-egypt-com
+ 1930  mv forbes/compiled/*/out*/https:__www.forbes.com____-___* homepage/forbes
+ 1931  mv news-google-com/compiled/*/out*/https:__news.google.com_news____-___* homepage/news-google-com
+ 1932  mv nytimes/compiled/*/out*/https:__www.nytimes.com____-___* homepage/nytimes
+ 1933  mv theguardian/compiled/*/out*/https:__www.theguardian.com____-___* homepage/theguardian
+ 1934  mv wikileaks-org/compiled/*/out*/https:__wikileaks.org____-___* homepage/wikileaks-org
+ 1935  mv yahoo/compiled/*/out*/https:__www.yahoo.com____-___* homepage/yahoo
+ 1936  cd ..
+ 1937  ls
+ 1938  cd public/
+ 1939  ls
+ 1940  cd crawling/
+ 1941  ls
+ 1942  mkdir homepage
+ 1943  mkdir homepage/apa-org
+ 1944  mkdir homepage/ed-org
+ 1945  mkdir homepage/ghana
+ 1946  mkdir homepage/gov-hk
+ 1947  mkdir homepage/humanservices
+ 1948  mkdir homepage/japanpost
+ 1949  mkdir homepage/medlinepulus
+ 1950  mkdir homepage/nih-gov
+ 1951  mkdir homepage/presidencia
+ 1952  mkdir homepage/un-org
+ 1953  mkdir homepage/vedur
+ 1954  ls apa-org/compiled/20180616_001847_test100_180_www-apa-org-_as28-pc11/output-tcp/
+ 1955  ls
+ 1956  ls ed-gov/compiled/20180616_014844_test100_180_www-ed-gov-_as28-pc11/output-tcp/
+ 1957  ls
+ 1958  ls ghana/compiled/20180616_034753_test100_180_www-ghana-gov-gh-_as28-pc11/output-tcp/
+ 1959  ls gov-hk/compiled/20180616_053101_test100_180_www-gov-hk_as28-pc11/output-tcp/
+ 1960  ls
+ 1961  ls gov-uk/
+ 1962  ls gov-uk/compiled/20180616_071620_test100_180_www-gov-uk-_as28-pc11/output-tcp/
+ 1963  ls humanservices/compiled/20180615_184517_test100_180_human-services-com_as28-pc11/output-tcp/
+ 1964  ls
+ 1965  ls japanpost/compiled/20180616_104641_test100_180_www-post-japanpost-jp-_as28-pc11/output-tcp/
+ 1966  ls medlineplus/compiled/20180615_203440_test100_180_medlineplus-gov-_as28-pc11/output-tcp/
+ 1967  ls
+ 1968  ls nih-gov/compiled/20180616_091018_test100_180_www-nih-gov-_as28-pc11/output-tcp/
+ 1969  ls presidencia/compiled/20180615_222403_test100_180_presidencia-gob-gt_as28-pc11/output-tcp
+ 1970  ls
+ 1971  ls un-org/
+ 1972  ls un-org/compiled/20180616_122018_test100_180_www-un-org-_as28-pc11/output-tcp/
+ 1973  ls
+ 1974  ls vedur/compiled/20180615_171053_test100_180_en-vedur-is-_as28-pc11/output-tcp/
+ 1975  mv apa-org/compiled/*/out*/http:__www.apa.org____-___* homepage/apa-org
+ 1976  mv ed-gov/compiled/*/out*/https:__www.ed.gov____-___* homepage/ed-gov
+ 1977  mv ghana/compiled/*/out*/http:__www.ghana.gov.gh____-___* homepage/ghana
+ 1978  mv gov-hk/compiled/*/out*/https:__www.gov.hk___-___* homepage/gov-hk
+ 1979  mv gov-uk/compiled/*/out*/https:__www.gov.uk____-___* homepage/gov-uk
+ 1980  mv humanservices/compiled/*/out*/https:__www.humanservices.gov.au____-___* homepage/humanservices
+ 1981  mv japanpost/compiled/*/out*/http:__www.post.japanpost.jp____-___* homepage/japanpost
+ 1982  mv medlineplus/compiled/*/out*/https:__medlineplus.gov____-___* homepage/medlineplus
+ 1983  mv nih-gov/compiled/*/out*/https:__www.nih.gov____-___* homepage/nih-gov
+ 1984  mv presidencia/compiled/*/out*/http:__www.presidencia.gob.gt____-___* homepage/presidencia
+ 1985  mv un-org/compiled/*/out*/http:__www.un.org____-___* homepage/un-org
+ 1986  mv vedur/compiled/*/out*/http:__en.vedur.is____-___* homepage/vedur
+ 1987  ls homepage/
+ 1988  ls
+ 1989  ls homepage/
+ 1990  ls
+ 1991  ls homepage/
+ 1992  ls
+ 1993  ls homepage/
+ 1994  mv homepage/ed-org/ homepage/ed-gov
+ 1995  mkdir homepage/gov-uk
+ 1996  mv homepage/medlinepulus/ homepage/medlineplus
+ 1997  mv ed-gov/compiled/*/out*/https:__www.ed.gov____-___* homepage/ed-gov
+ 1998  mv gov-uk/compiled/*/out*/https:__www.gov.uk____-___* homepage/gov-uk
+ 1999  mv medlineplus/compiled/*/out*/https:__medlineplus.gov____-___* homepage/medlineplus
+ 2000  history >> historyfile
